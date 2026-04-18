@@ -1,0 +1,33 @@
+.container{
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  background: #ffe6e6;
+}
+
+
+h1{
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.yes-btn {
+  margin-top: 20px;
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+}
+
+.no-btn {
+  position: absolute;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}

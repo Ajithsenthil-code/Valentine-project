@@ -10,10 +10,10 @@ function App(){
     const newLeft = Math.random() * 80;
 
     setNoBtnPosition({
-      top: `${newTop}%`,
+      top: `${newTop}%`, 
       left: `${newLeft}%`,
     })
-  };
+  };                  
 
   return(
     <div className="container">
